@@ -1,0 +1,7 @@
+{
+  "name": "inveos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
