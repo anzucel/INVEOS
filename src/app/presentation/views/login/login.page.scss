@@ -1,0 +1,54 @@
+// ion-content {
+//     --background: url('/assets/img/background/login-img.jpg') right no-repeat;
+//     // background-size: cover;
+//     // background-position: right;
+//     // --background-repeat: no-repeat;
+//     // background-attachment: fixed;
+//     // background-position: left bottom;
+// }
+// ion-row{
+//     border: solid;
+//     border-color: black;
+// }
+ion-content {
+    --background: url('/assets/img/background/background-1200.png') no-repeat right;
+}
+  
+  /* For devices 400px and larger: */
+@media only screen and (min-device-width: 769) {
+    ion-content {
+      --background: url('/assets/img/background/background-1200.png') no-repeat right;
+    }
+}
+
+.about{
+    height: 10px;
+}
+
+ion-item{
+    // border: solid;
+    // border-color: gray;
+    height: 60px;
+    margin-left: -0.1rem;
+    border-radius: 20px !important;
+    padding-left: 30px !important;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-bottom: 0px !important;
+    box-shadow: none !important;
+    border-bottom: 10px;
+}
+
+ion-card{
+    width: 75%;
+    height: 90%;
+    border-radius: 20px !important;
+}
+
+.login-btn{
+    height: 65px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 17px;
+}
